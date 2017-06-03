@@ -231,7 +231,9 @@ public class Main extends SimpleApplication
             
         }
         if(value == 5){
-            System.out.println(5);
+            JOptionPane.showMessageDialog(null,
+                  "Github.com/BCastro18");
+            Menu();
             
         }
         if(value == 6){
@@ -270,6 +272,10 @@ public class Main extends SimpleApplication
             }
         }
         
+        if(value == 0){
+            System.exit(0);
+        }
+        
         if(value == 9){
             List<String> dif = new ArrayList<String>();
             dif.add("Easy");
@@ -297,9 +303,6 @@ public class Main extends SimpleApplication
             }
             
             
-        }
-        if(value == 0){
-
         }
     }
     @Override
